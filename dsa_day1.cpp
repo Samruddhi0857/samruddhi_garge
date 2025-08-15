@@ -52,7 +52,7 @@ int main()
             cin>>arr[i];
         }
     }
-    Sortarr A= Sortarr();
+    Sortarr A= Sortarr(); //object of class
     A.sort_array(arr);
     cout<<"Sorted array: "<<"\n";
      for(int i=0;i<n;i++)
