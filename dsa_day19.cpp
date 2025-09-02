@@ -1,13 +1,13 @@
 #include <iostream>
-#include <sstream>   // for stringstream
-#include <cmath>     // for pow
+#include <sstream>  
+#include <cmath>     
 using namespace std;
 
 #define MAX 1000
 
 class Stack {
 private:
-    long long arr[MAX];  // use long long for safety
+    long long arr[MAX];  
     int top;
 
 public:
